@@ -14,13 +14,17 @@ set CLASSPATH=%CLASSPATH%;D:\OraHome_3\wlserver\server\lib\wlthint3client.jar;E:
 
 Then you can run this demo now.
 The default values are listed below:
+
 1.WLS's URL is t3://localhost:7013
 #define WEBLOGIC_URL "t3://localhost:7013"
+
 2.WLS's username and password.
 #define WLS_USRNAME "weblogic"
 #define WLS_PASSWD "welcome1"
+
 3.WLS's JMS connection factory JNDI
 #define CONNECTION_FACTORY "QCF"
+
 4.TOPIC_NAME_R should be a valid JMS Queue JNDI, which is used for JMS Message recieve.
 #define TOPIC_NAME_R "Queue0"
 
