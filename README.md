@@ -29,3 +29,5 @@ There is also 2 Listeners for JMS.
 This callback is called while working if the jms session encounters an Exception.
 2. static void MessageListener(JmsMessage* message, void* argument, JMS64I flags)
 This callback is called new message arrival.
+
+The Class wrap is under development.
