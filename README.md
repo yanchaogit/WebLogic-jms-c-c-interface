@@ -34,4 +34,6 @@ This callback is called while working if the jms session encounters an Exception
 2. static void MessageListener(JmsMessage* message, void* argument, JMS64I flags)
 This callback is called new message arrival.
 
+It was tested on the Windows with Visual Studio. And it should work on Linux as well, there is no platform dependent functions except charactor convertion.
+
 The Class wrap is under development.
